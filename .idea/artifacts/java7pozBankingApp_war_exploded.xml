@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="BankingApp" />
+          <element id="module-output" name="java7pozBankingApp" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
@@ -14,6 +14,7 @@
           <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" />
           <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.3.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:5.2.16.Final" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.22.0-GA" />
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
@@ -28,7 +29,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/java7pozBankingApp/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="BankingApp/web/Web" />
+      <element id="javaee-facet-resources" facet="java7pozBankingApp/web/Web" />
     </root>
   </artifact>
 </component>

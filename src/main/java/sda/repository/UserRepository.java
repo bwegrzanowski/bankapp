@@ -1,7 +1,7 @@
 package sda.repository;
 
 import sda.HibernateUtil;
-import sda.domain.User;
+import sda.model.User;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 
@@ -74,6 +74,26 @@ public class UserRepository {
         } catch (Exception e) {
             e.printStackTrace();
             return Collections.emptyList();
+        } finally {
+            if (session != null && session.isOpen()) {
+                session.close();
+            }
+        }
+    }
+    public static Optional<User> findUserByEmail(String email) {
+        Session session = null;
+        try {
+            session = HibernateUtil.openSession();
+            //
+            String hql = "select u from User u where u.email = :email";
+            Query query = session.createQuery(hql);
+            query.setParameter("email", email);
+//            query.setParameter("password", password);
+            User user = (User) query.getSingleResult();
+            return Optional.ofNullable(user);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return Optional.empty();
         } finally {
             if (session != null && session.isOpen()) {
                 session.close();
