@@ -1,6 +1,8 @@
-
+<%@ page import="sda.model.User" %>
 <!DOCTYPE html>
 <html lang="en">
+<%@ page session="true" %>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,29 +24,49 @@
     <link href="signin.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
     <![endif]-->
+
+    <%--Komentarz ktory sprawia ze intelliJ widzi i podpowiada metody do zmiennej user--%>
+    <%--@elvariable id="user" type="model.User"--%>
+
+    <link href="otherFiles/style2.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 
 <body>
 
 <%@ include file="header.jsp" %>
-<div class="container" style="width: 400px">
 
-    <form class="form-signin" action="login.jsp" method="get">
-        <h2 class="form-signin-heading">Welcome to our BankApp!</h2>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Continue</button>
-    </form>
-
-
-</div> <!-- /container -->
-
+<div style="position: absolute">
+    <div style="
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;">
+        <div class="alert alert-info">
+            <span class="glyphicon glyphicon-info-sign"></span> <strong>Thank you for registering an account!</strong>
+            <hr class="message-inner-separator">
+            <p>
+                In order to activate your account, click the activation link in mail we sent to your email account
+            </p>
+        </div>
+    </div>
+</div>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>

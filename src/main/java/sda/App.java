@@ -6,6 +6,8 @@ import sda.repository.BankAccountRepository;
 import sda.repository.UserRepository;
 
 import java.math.BigDecimal;
+import java.util.Hashtable;
+import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
@@ -38,5 +40,6 @@ public class App {
                 .password("kowalski")
                 .build();
         UserRepository.saveUser(user);
+
     }
 }

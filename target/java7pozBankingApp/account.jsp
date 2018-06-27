@@ -32,7 +32,11 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
     <![endif]-->
+
+    <%--Komentarz ktory sprawia ze intelliJ widzi i podpowiada metody do zmiennej user--%>
+    <%--@elvariable id="user" type="model.User"--%>
 </head>
 
 <body>
@@ -40,7 +44,7 @@
 <%@ include file="header.jsp" %>
 <div class="container" style="width: 400px">
     <div class="container" style="width: 400px">
-        <h1 class="form-signin-heading">Witaj ${user.firstName} ${user.lastName}</h1>
+        <h1 class="form-signin-heading">Welcome ${user.firstName} ${user.lastName}!</h1>
         <h1 class="form-signin-heading">Account number: ${user.account.accountNumber}</h1>
         <h2 class="form-signin-heading">Balance account:</h2>
         <h3 class="form-signin-heading">${user.account.balance}${user.account.currency}</h3>

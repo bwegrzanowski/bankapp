@@ -62,6 +62,24 @@ public class UserRepository {
             }
         }
     }
+    public static Optional<User> findUserBySecurityToken(String token) {
+        Session session = null;
+        try {
+            session = HibernateUtil.openSession();
+            String hql = "select u from User u where u.activationToken = :token";
+            Query query = session.createQuery(hql);
+            query.setParameter("token", token);
+            User user = (User) query.getSingleResult();
+            return Optional.ofNullable(user);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return Optional.empty();
+        } finally {
+            if (session != null && session.isOpen()) {
+                session.close();
+            }
+        }
+    }
 
     public static List<User> findAll() {
         Session session = null;

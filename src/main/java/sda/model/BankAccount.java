@@ -21,6 +21,7 @@ public class BankAccount implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "accountNumber", unique = true)
     @Length(min = 26, max = 26)
     private String accountNumber;
     private BigDecimal balance;

@@ -81,31 +81,27 @@ public class BankAccountRepository {
             }
         }
     }
-    public static List<String> findAllAccountNumbers() {
+
+    public static boolean isAccountNumberIsUnique(String accountNumber) {
         Session session = null;
         try {
             session = HibernateUtil.openSession();
-            String hql = "SELECT b.accountNumber FROM BankAccount b ";
+            String hql = "select count (*) FROM BankAccount b where b.accountNumber = :accountNumber ";
             Query query = session.createQuery(hql);
-            return query.getResultList();
+            query.setParameter("accountNumber", accountNumber);
+            Long count = (Long) query.uniqueResult();
+            if (count.equals(0L)) {
+                return true;
+            } else {
+                return false;
+            }
         } catch (Exception e) {
             e.printStackTrace();
-            return Collections.emptyList();
+            return false;
         } finally {
             if (session != null && session.isOpen()) {
                 session.close();
             }
         }
     }
-
-    public static String accountNumberGenerator() {
-        Random random = new Random();
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < 26; i++) {
-            int a = random.nextInt(10);
-            sb.append(a);
-        }
-        return sb.toString();
-    }
-
 }

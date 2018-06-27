@@ -7,123 +7,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d17fc5-0d72-4b82-907d-7477935b810d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sda/controller/LoginServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sda/controller/LogoutServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sda/controller/MyAccountServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sda/filters/AuthenticationFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sda/repository/BankAccountRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/account.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/App.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/HibernateUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/controller/LoginServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/controller/LogoutServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/controller/MyAccountServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/domain/BankAccount$BankAccountBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/domain/BankAccount.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/domain/User$UserBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/domain/User.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/filters/AuthenticationFilter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/listener/ContextListener.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/model/BankAccount$BankAccountBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/model/BankAccount.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/model/User$UserBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/model/User.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/repository/BankAccountRepository.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/repository/UserRepository.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/servlets/LoginServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sda/servlets/LogoutServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/hibernate.cfg.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/App.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/HibernateUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/controller/LoginServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/controller/LogoutServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/controller/MyAccountServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/domain/BankAccount$BankAccountBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/domain/BankAccount.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/domain/User$UserBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/domain/User.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/filters/AuthenticationFilter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/listener/ContextListener.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/model/BankAccount$BankAccountBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/model/BankAccount.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/model/User$UserBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/model/User.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/repository/BankAccountRepository.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/repository/UserRepository.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/servlets/LoginServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/servlets/LogoutServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/antlr-2.7.7.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/classmate-1.3.4.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/hibernate-core-5.2.16.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/hibernate-validator-6.0.10.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/jandex-2.0.3.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/javassist-3.22.0-GA.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/jstl-1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/mysql-connector-java-8.0.11.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/protobuf-java-2.6.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/lib/validation-api-2.0.1.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/account.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/header.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/index.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/login.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/otherFiles/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/otherFiles/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/otherFiles/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/otherFiles/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/otherFiles/gulpfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/otherFiles/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/otherFiles/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/otherFiles/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/register.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/js/bootstrap.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/js/bootstrap.bundle.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/js/bootstrap.bundle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/js/bootstrap.bundle.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/js/bootstrap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/bootstrap/js/bootstrap.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/jquery/jquery.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/jquery/jquery.slim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/jquery/jquery.slim.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/vendor/jquery/jquery.slim.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sda/controller/AccountActivationServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sda/controller/RegisterAccountServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sda/controller/SendEmail.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sda/model/SendMail.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/accountNotActivated.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/activationMailSent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/contact.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/otherFiles/style2.css" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/java7pozBankingApp_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/java7pozBankingApp_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/0dfbc319-1735-4918-984e-0207e4467b46.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0dfbc319-1735-4918-984e-0207e4467b46.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BankingApp.iml" afterPath="$PROJECT_DIR$/java7pozBankingApp.iml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/java7pozBankingApp.iml" afterPath="$PROJECT_DIR$/java7pozBankingApp.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sda/App.java" afterPath="$PROJECT_DIR$/src/main/java/sda/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sda/domain/BankAccount.java" afterPath="$PROJECT_DIR$/src/main/java/sda/model/BankAccount.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sda/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/sda/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sda/html/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/src/main/java/sda/html/vendor/jquery/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/controller/LoginServlet.java" afterPath="$PROJECT_DIR$/src/main/java/sda/controller/LoginServlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/model/BankAccount.java" afterPath="$PROJECT_DIR$/src/main/java/sda/model/BankAccount.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/sda/model/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/repository/BankAccountRepository.java" afterPath="$PROJECT_DIR$/src/main/java/sda/repository/BankAccountRepository.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sda/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/sda/repository/UserRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/otherFiles/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/account.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/account.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/App.class" afterPath="$PROJECT_DIR$/target/classes/sda/App.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/controller/LoginServlet.class" afterPath="$PROJECT_DIR$/target/classes/sda/controller/LoginServlet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/model/BankAccount.class" afterPath="$PROJECT_DIR$/target/classes/sda/model/BankAccount.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/model/User$UserBuilder.class" afterPath="$PROJECT_DIR$/target/classes/sda/model/User$UserBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/model/User.class" afterPath="$PROJECT_DIR$/target/classes/sda/model/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/repository/BankAccountRepository.class" afterPath="$PROJECT_DIR$/target/classes/sda/repository/BankAccountRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/classes/sda/repository/UserRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/App.class" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/App.class" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/controller/LoginServlet.class" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/controller/LoginServlet.class" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/model/BankAccount.class" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/model/BankAccount.class" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/model/User$UserBuilder.class" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/model/User$UserBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/model/User.class" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/model/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/repository/BankAccountRepository.class" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/repository/BankAccountRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/classes/sda/repository/UserRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/account.jsp" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/account.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/header.jsp" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/header.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/index.jsp" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/java7pozBankingApp/register.jsp" afterPath="$PROJECT_DIR$/target/java7pozBankingApp/register.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,6 +87,19 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bank: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bank: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -161,98 +107,16 @@
     <favorites_list name="java7pozBankingApp-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyAccountServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/MyAccountServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogoutServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/LogoutServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="52" column="87" lean-forward="false" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="170">
-                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BankAccountRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sda/repository/BankAccountRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="91" column="32" lean-forward="true" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
+        <option value="HTML File" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -262,6 +126,13 @@
       <find>tets</find>
       <find>banki</find>
       <find>hiber</find>
+      <find>hey</find>
+      <find>SMILES</find>
+      <find>smiles</find>
+      <find>univers</find>
+      <find>confirm</find>
+      <find>mess</find>
+      <find>messa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -275,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernateconfig.xml.tld" />
         <option value="$PROJECT_DIR$/src/main/java/HibernateUtil.java" />
@@ -288,25 +158,45 @@
         <option value="$PROJECT_DIR$/src/main/java/sda/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/sda/html/otherFiles/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/sda/html/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/sda/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/sda/domain/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/sda/servlets/LogoutServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/sda/servlets/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sda/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sda/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/sda/controller/MyAccountServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sda/controller/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/account.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/sda/filters/AuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/account.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/confirmationMail.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/registrationMail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/registrationMail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/controller/MaillAppServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/model/BankAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/controller/SendMail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SendEmail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/repository/BankAccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/accountNotActiveAfterLogin.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/model/MailAndPassword.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/webapp/otherFiles/style2.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/accountNotActivated.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/controller/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/activationMailSent.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/model/SendMail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/controller/AccountActivationServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/controller/RegisterAccountServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/controller/SendEmail.java" />
         <option value="$PROJECT_DIR$/src/main/java/sda/controller/LogoutServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/sda/repository/BankAccountRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/contact.jsp" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
       </list>
     </option>
   </component>
@@ -330,10 +220,27 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java7pozBankingApp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java7pozBankingApp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="782" />
-    <option name="height" value="831" />
+    <option name="x" value="2264" />
+    <option name="y" value="-14" />
+    <option name="width" value="1549" />
+    <option name="height" value="837" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -342,7 +249,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -351,7 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -417,7 +323,7 @@
               <item name="java7pozBankingApp-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java7pozBankingApp-master" type="b2602c69:ProjectViewProjectNode" />
@@ -425,14 +331,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,18 +362,23 @@
     <property name="LombokPluginIS_RUNTIME_PATCH_Enabled" value="false" />
     <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
     <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programy\SDA java projects\java7pozBankingApp-master\src\main\webapp\otherFiles" />
-      <recent name="D:\Programy\SDA java projects\java7pozBankingApp-master\src\main\java\sda\html" />
-      <recent name="D:\Programy\SDA java projects\java7pozBankingApp-master\src\main\java\sda\html\otherFiles" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sda.controller" />
+      <recent name="domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programy\SDA java projects\java7pozBankingApp-master\src\main\webapp" />
+      <recent name="D:\Programy\SDA java projects\java7pozBankingApp-master" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="domain" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programy\SDA java projects\java7pozBankingApp-master\src\main\webapp" />
+      <recent name="D:\Programy\SDA java projects\java7pozBankingApp-master\src\main\webapp\otherFiles" />
+      <recent name="D:\Programy\SDA java projects\java7pozBankingApp-master\src\main\java\sda\html" />
+      <recent name="D:\Programy\SDA java projects\java7pozBankingApp-master\src\main\java\sda\html\otherFiles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -540,18 +453,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java7pozBankingApp" />
-      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -665,6 +566,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java7pozBankingApp" />
+      <envs />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.bankApp" />
       <item index="1" class="java.lang.String" itemvalue="Application.App" />
@@ -688,50 +601,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529595770966</updated>
-      <workItem from="1529595772269" duration="26610000" />
+      <workItem from="1529595772269" duration="54602000" />
+      <workItem from="1530028775772" duration="18053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26610000" />
+    <option name="totallyTimeSpent" value="72655000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="2391" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29758713" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2964554" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24932976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52982956" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5290764" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32841823" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814178" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47585228" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42531356" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15778251" sideWeight="0.4943182" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34852546" sideWeight="0.5056818" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868353" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.198174" sideWeight="0.5102041" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22610097" sideWeight="0.4934612" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17976089" sideWeight="0.5065388" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19839142" sideWeight="0.5056818" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,58 +655,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sda/listener/ContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0dfbc319-1735-4918-984e-0207e4467b46/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sda/TestServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java7pozBankingApp.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/TestServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/otherFiles/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,108 +683,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sda/model/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sda/servletsLoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sda/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/383c3fb9/0dfbc319-1735-4918-984e-0207e4467b46/bank.bankaccount">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/383c3fb9/0dfbc319-1735-4918-984e-0207e4467b46/bank.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sda/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="73" lean-forward="true" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/MyAccountServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/account.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/servletsLoginServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/sda/filters/AuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-41">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,74 +702,319 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/LogoutServlet.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap/3.2.0/bootstrap-3.2.0.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java7pozBankingApp.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="73" lean-forward="true" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="1168" column="24" lean-forward="true" selection-start-line="1168" selection-start-column="24" selection-end-line="1168" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="453" column="27" lean-forward="false" selection-start-line="453" selection-start-column="27" selection-end-line="453" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/confirmationMail.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/account.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/registrationMail.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/MaillAppServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/SendEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="210" column="11" lean-forward="false" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
+          <folding>
+            <element signature="e#7926#7927#0" expanded="false" />
+            <element signature="e#7957#7958#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SendEmail.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/model/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar!/org/apache/commons/lang3/RandomStringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1530033642559" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1530033642559" expanded="true" signature="287:294" ph="{}" />
+            <marker date="1530033642559" expanded="false" signature="338:349" ph=" { " />
+            <marker date="1530033642559" expanded="false" signature="384:390" ph=" }" />
+            <marker date="1530033642559" expanded="false" signature="439:450" ph=" { " />
+            <marker date="1530033642559" expanded="false" signature="494:500" ph=" }" />
+            <marker date="1530033642559" expanded="true" signature="587:683" ph="{...}" />
+            <marker date="1530033642559" expanded="false" signature="737:748" ph=" { " />
+            <marker date="1530033642559" expanded="false" signature="782:788" ph=" }" />
+            <marker date="1530033642559" expanded="true" signature="880:981" ph="{...}" />
+            <marker date="1530033642559" expanded="false" signature="1037:1048" ph=" { " />
+            <marker date="1530033642559" expanded="false" signature="1081:1087" ph=" }" />
+            <marker date="1530033642559" expanded="true" signature="1181:1284" ph="{...}" />
+            <marker date="1530033642559" expanded="false" signature="1333:1344" ph=" { " />
+            <marker date="1530033642559" expanded="false" signature="1388:1394" ph=" }" />
+            <marker date="1530033642559" expanded="true" signature="1481:1577" ph="{...}" />
+            <marker date="1530033642559" expanded="false" signature="1628:1639" ph=" { " />
+            <marker date="1530033642559" expanded="false" signature="1673:1679" ph=" }" />
+            <marker date="1530033642559" expanded="true" signature="1768:1866" ph="{...}" />
+            <marker date="1530033642559" expanded="false" signature="1915:1926" ph=" { " />
+            <marker date="1530033642559" expanded="false" signature="1970:1976" ph=" }" />
+            <marker date="1530033642559" expanded="true" signature="2063:2159" ph="{...}" />
+            <marker date="1530033642559" expanded="true" signature="2238:2299" ph="{...}" />
+            <marker date="1530033642559" expanded="true" signature="2398:2487" ph="{...}" />
+            <marker date="1530033642559" expanded="true" signature="2601:2683" ph="{...}" />
+            <marker date="1530033642559" expanded="true" signature="2811:5530" ph="{...}" />
+            <marker date="1530033642559" expanded="true" signature="5589:5721" ph="{...}" />
+            <marker date="1530033642559" expanded="true" signature="5781:5938" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/model/MailAndPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/otherFiles/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7-sources.jar!/org/apache/commons/lang3/RandomStringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="143" column="25" lean-forward="false" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+          <folding>
+            <element signature="e#5601#5602#0" expanded="false" />
+            <element signature="e#5649#5650#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        <state relative-caret-position="-234">
+          <caret line="6" column="70" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/383c3fb9/0dfbc319-1735-4918-984e-0207e4467b46/bank.bankaccount">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="40" column="68" lean-forward="false" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/accountNotActivated.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="39" column="56" lean-forward="false" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/repository/BankAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sda/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="96">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/AccountActivationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="189">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/RegisterAccountServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sda/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="82" column="44" lean-forward="false" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+        <state relative-caret-position="-150">
+          <caret line="69" column="51" lean-forward="true" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap/3.2.0/bootstrap-3.2.0.jar!/META-INF/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/model/SendMail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1029">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1255#1468#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/SendEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        <state relative-caret-position="750">
+          <caret line="510" column="23" lean-forward="false" selection-start-line="510" selection-start-column="23" selection-end-line="510" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sda/repository/BankAccountRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="91" column="32" lean-forward="true" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+        <state relative-caret-position="648">
+          <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="52" column="87" lean-forward="false" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
+        <state relative-caret-position="294">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/contact.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -997,11 +1022,50 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <first_editor relative-caret-position="315">
+            <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/383c3fb9/0dfbc319-1735-4918-984e-0207e4467b46/bank.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/controller/MyAccountServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="44" column="162" lean-forward="false" selection-start-line="44" selection-start-column="162" selection-end-line="44" selection-end-column="162" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/activationMailSent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

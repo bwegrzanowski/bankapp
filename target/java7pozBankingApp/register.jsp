@@ -36,21 +36,20 @@
 
 <%@ include file="header.jsp" %>
 <div class="container" style="width: 400px">
-
-    <form class="form-signin" action="myAccount" method="post">
+    <form class="form-signin" action="registerAccount" method="post">
         <h2 class="form-signin-heading">Please sign in</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required
                autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" name="password" id="inputPassword" pattern=".{5}" required title="minimum 5 characters" class="form-control" placeholder="Password">
 
         <label for="inputFirstName" class="sr-only">First name</label>
-        <input type="email" name="firstName" id="inputFirstName" class="form-control" placeholder="first name" required>
+        <input type="text" name="firstName" id="inputFirstName" class="form-control" placeholder="first name" required>
         <label for="inputLastName" class="sr-only">Last name</label>
-        <input type="email" name="lastName" id="inputLastName" class="form-control" placeholder="Last name" required>
+        <input type="text" name="lastName" id="inputLastName" class="form-control" placeholder="Last name" required>
 
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Register account</button>
     </form>
 
 </div> <!-- /container -->

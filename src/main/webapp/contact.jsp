@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +21,8 @@
     <link href="signin.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -35,12 +35,11 @@
 <body>
 
 <%@ include file="header.jsp" %>
-<div class="container" style="width: 400px">
+<div class="container">
 
-    <form class="form-signin" action="login.jsp" method="get">
-        <h2 class="form-signin-heading">Welcome to our BankApp!</h2>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Continue</button>
-    </form>
+    <h2 class="form-signin-heading">This site was designed as coding exercise with materials available on the internet.</h2>
+    <h5 class="form-signin-heading">For any information contact bartosz.wegrzanowski@gmail.com</h5>
+
 
 
 </div> <!-- /container -->

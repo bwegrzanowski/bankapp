@@ -24,8 +24,10 @@ public class LoginServlet extends HttpServlet {
             session.setMaxInactiveInterval(3600);
         }
         Optional<User> userByEmail = UserRepository.findUserByEmail(email);
-
-        if (password.equals(userByEmail.get().getPassword())) {
+        boolean activated = userByEmail.get().isActivated();
+        if (!activated) {
+            response.sendRedirect("/accountNotActivated.jsp");
+        } else if (password.equals(userByEmail.get().getPassword()) && activated) {
             User user = User.builder()
                     .firstName(userByEmail.get().getFirstName())
                     .lastName(userByEmail.get().getLastName())
