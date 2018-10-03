@@ -1,4 +1,4 @@
-# Simple BankingApp for managing bank accounts\
+# Simple BankingApp for managing bank accounts
 Entities:\
 -User (name, surname, email, bank account, password)\
 -BankAccount(account number, balance, money available to withdraw, currency, user)
